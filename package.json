@@ -1,0 +1,19 @@
+{
+  "name": "back_end",
+  "version": "1.0.0",
+  "description": "MineSet Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyush97/MineSet-BackEnd.git"
+  },
+  "author": "Piyush Mehta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piyush97/MineSet-BackEnd/issues"
+  },
+  "homepage": "https://github.com/piyush97/MineSet-BackEnd#readme"
+}
