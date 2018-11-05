@@ -34,5 +34,6 @@ jobs: # a collection of steps
       # - store_test_results: # special step to upload test results for display in Test Summary
       #     path: test-results.xml
       - run:
-          name: Start
-          command: npm run start
+          name: Deploy Master to Heroku
+          command: |
+            git push $PiyushURL master

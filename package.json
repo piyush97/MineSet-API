@@ -1,28 +1,28 @@
 {
-  "name": "back_end",
+  "name": "minesetapi",
   "version": "1.0.0",
-  "description": "MineSet Backend",
-  "main": "server.js",
+  "description": "Api for MineSet",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/piyush97/MineSet-BackEnd.git"
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Piyush Mehta",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/piyush97/MineSet-BackEnd/issues"
-  },
-  "homepage": "https://github.com/piyush97/MineSet-BackEnd#readme",
-  "devDependencies": {
-    "eslint": "^5.7.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
-  },
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
   }
 }
