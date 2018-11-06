@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
-var waterData = require('./water.js');
+var waterData = require('../datasets/water.js');
+var airQualityData = require('../datasets/airquality.js');
+
 // Get Homepage
 router.get('/', ensureAuthenticated, function(req, res){
 	res.render('index');
@@ -15,10 +17,17 @@ function ensureAuthenticated(req, res, next){
 	}
 }
 
-// API
+// API WaterData
 router.get('/waterData', function (req, res) {
 	res.json(
 		waterData
+	);
+});
+
+// API AirQualityData
+router.get('/airQualityData', function (req, res) {
+	res.json(
+		airQualityData
 	);
 });
 
