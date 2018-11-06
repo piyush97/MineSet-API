@@ -1,5 +1,7 @@
 <!-- Doc and Readme By Piyush Mehta -->
+ <span style="color: red">
 <h1 align="center">MineSet API</h1>
+</span>
 <p align="center">
 <img src="https://preview.ibb.co/hH8sqA/Mine-Set-Transparet.png" alt="Mine-Set-Transparet" height="300px" width="500px">
 
