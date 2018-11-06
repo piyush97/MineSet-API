@@ -1,15 +1,16 @@
 const request = require('supertest');
-const app = require('../app.js');
-//==================== user API test ====================
+const app = require('../routes/index');
+
+//==================== Waterdata API test ====================
 
 /**
- * Testing get all user endpoint
+ * Testing get waterdata endpoint
  */
 
-describe('GET /users', function () {
-  it('respond with json containing a list of all users', function (done) {
+describe('GET /waterData', function () {
+  it('respond with json containing a list of all waterdata', function (done) {
     request(app)
-      .get('/users')
+      .get('/waterData')
       .set('Accept', 'application/json')
       .expect('Content-Type', /json/)
       .expect(200, done);

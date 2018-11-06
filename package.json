@@ -28,6 +28,7 @@
     "passport-local": "*"
   },
   "devDependencies": {
+    "generate-changelog": "^1.7.1",
     "supertest": "^3.3.0"
   }
 }
