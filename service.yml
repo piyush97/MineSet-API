@@ -1,0 +1,16 @@
+services:
+
+  inventory:
+    git_url: git@github.com:piyush97/MineSet-BackEnd.git
+    git_branch: master
+    command: npm start
+    build_root: .
+    ports:
+      - container: 8080
+        http: 80
+        https: 443
+    env_vars:
+      NODE_ENV: production
+
+databases:
+  - mongodb
