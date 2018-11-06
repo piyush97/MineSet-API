@@ -12,10 +12,21 @@
 
 </p>
 
-## Endpoints:
+# Endpoints:
 ### Login
+
 https://minesetapi.herokuapp.com/users/login
+
 ### Register
+
 https://minesetapi.herokuapp.com/users/register
+
 ### WaterData
+
 https://minesetapi.herokuapp.com/waterdata
+
+# To push files
+
+```sh
+$ sh push.sh
+```
