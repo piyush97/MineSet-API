@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-
+var waterData = require('./water.js');
 // Get Homepage
 router.get('/', ensureAuthenticated, function(req, res){
 	res.render('index');
@@ -14,5 +14,12 @@ function ensureAuthenticated(req, res, next){
 		res.redirect('/users/login');
 	}
 }
+
+// API
+router.get('/waterData', function (req, res) {
+	res.json(
+		waterData
+	);
+});
 
 module.exports = router;
