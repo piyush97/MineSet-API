@@ -4,7 +4,8 @@
   "description": "Api for MineSet",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"  },
+    "start": "node app.js"
+  },
   "author": "Piyush Mehta",
   "license": "ISC",
   "dependencies": {
@@ -25,5 +26,14 @@
   },
   "devDependencies": {
     "supertest": "^3.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyush97/MineSet-BackEnd.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/piyush97/MineSet-BackEnd/issues"
+  },
+  "homepage": "https://github.com/piyush97/MineSet-BackEnd#readme"
 }
