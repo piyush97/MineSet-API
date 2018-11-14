@@ -4,10 +4,7 @@
   "description": "Api for MineSet",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "mocha 'test/apiTest.js'",
-    "dev": "nodemon app.js"
-  },
+    "start": "node app.js"  },
   "author": "Piyush Mehta",
   "license": "ISC",
   "dependencies": {
@@ -22,7 +19,6 @@
     "express-validator": "*",
     "mongodb": "*",
     "mongoose": "*",
-    "nodemon": "^1.18.6",
     "passport": "*",
     "passport-http": "*",
     "passport-local": "*"
